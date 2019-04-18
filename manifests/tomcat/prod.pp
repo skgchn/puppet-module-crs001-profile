@@ -1,4 +1,4 @@
-class profile::tomcat::prod {
+define profile::tomcat::prod {
   include tomcat # Since using hieradata, cannot use class
   #class {'::tomcat' :
   #  java_opts_xms => '128m',
