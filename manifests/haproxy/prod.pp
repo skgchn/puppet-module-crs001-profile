@@ -1,4 +1,4 @@
-class profile::haproxy::prod {
+define profile::haproxy::prod {
   include ::haproxy
   haproxy::listen { 'lb-01':
     collect_exported => false,
