@@ -1,3 +1,3 @@
-define profile::common {
+class profile::common {
   include ntp
 }
